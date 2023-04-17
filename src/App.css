@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+
+button{
+  margin-top: 12px;
+  background-color: aquamarine;
+  border-radius: 14px;
+  margin-bottom: 12px;
+}
+
+button:hover{
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
